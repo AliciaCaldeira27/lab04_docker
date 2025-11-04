@@ -39,7 +39,7 @@ jobs:
           context: ./
           push: true
           dockerfile: ./Dockerfile # Certifique-se de que o caminho do seu Dockerfile está correto
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/webacademy:latest
+          tags: alicia1983/webacademy:latest
 
   deploy:
     needs: build_docker
